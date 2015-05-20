@@ -6,6 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
 import it.neokree.materialtabs.MaterialTab;
@@ -15,7 +16,7 @@ import it.neokree.materialtabs.MaterialTabListener;
 /**
  * Created by neokree on 30/12/14.
  */
-public class SwipableTextTabActivity extends ActionBarActivity implements MaterialTabListener {
+public class SwipableTextTabActivity extends AppCompatActivity implements MaterialTabListener {
 
     MaterialTabHost tabHost;
     ViewPager pager;
